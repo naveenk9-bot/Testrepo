@@ -1,0 +1,70 @@
+{
+  "id": "/subscriptions/bce42cd4-f052-451e-844d-585069e506d9/resourceGroups/Vdi/providers/Microsoft.Resources/deployments/Microsoft.DataFactory-Azfirst",
+  "name": "Microsoft.DataFactory-Azfirst",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/bce42cd4-f052-451e-844d-585069e506d9/resourcegroups/Vdi/providers/Microsoft.DataFactory/factories/Azfirst",
+    "marketplaceItemId": "Microsoft.DataFactory"
+  },
+  "properties": {
+    "templateHash": "11755885318847910249",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "Azfirst"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "apiVersion": {
+        "type": "String",
+        "value": "2018-06-01"
+      },
+      "gitAccountName": {
+        "type": "String",
+        "value": "naveenk9-bot"
+      },
+      "gitRepositoryName": {
+        "type": "String",
+        "value": "Testrepo"
+      },
+      "gitBranchName": {
+        "type": "String",
+        "value": "master"
+      },
+      "gitRootFolder": {
+        "type": "String",
+        "value": "/data"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-07-15T11:03:59.510569Z",
+    "duration": "PT4.8391156S",
+    "correlationId": "b6585313-8a73-480f-930f-e28eb10cbc72",
+    "providers": [
+      {
+        "namespace": "Microsoft.DataFactory",
+        "resourceTypes": [
+          {
+            "resourceType": "factories",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/bce42cd4-f052-451e-844d-585069e506d9/resourceGroups/Vdi/providers/Microsoft.DataFactory/factories/Azfirst"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
